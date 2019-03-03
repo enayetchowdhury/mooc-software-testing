@@ -6,9 +6,9 @@ import org.junit.jupiter.api.Test;
 public class GettingStartedTest {
 
     @Test
-    public void addFiveTo20() {
-        int result = new GettingStarted().addFive(20);
-        Assertions.assertEquals(25,result);
+    public void addFiveTo25() {
+        int result = new GettingStarted().addFive(25);
+        Assertions.assertEquals(30,result);
     }
 
 
@@ -23,5 +23,8 @@ public class GettingStartedTest {
     public void addFiveToMinus20() {
         int result = new GettingStarted().addFive(-20);
         Assertions.assertEquals(-15,result);
+        System.out.println("TEST EXECUTION COMPLETED");
     }
+
+
 }
